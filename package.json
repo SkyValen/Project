@@ -1,0 +1,16 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "A website for a non-commercial company",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js -e js,json,njk"
+  },
+  "author": "Vladislav Boiko",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "nunjucks": "^3.2.4"
+  }
+}
