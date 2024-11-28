@@ -1,0 +1,29 @@
+{% extends "./Views/layout.njk"%}
+{% block title %} Exhibitions {% endblock %}
+{% block style %} {% include "./Design/style_exhibitions.css" %} {% endblock %}
+{% block content %}
+        <div class="events">
+            <section>
+                <h2>Выставка такая-то</h2>
+                <div class="exhibitions">
+                    <img src="./img/exhibitions1.png" alt="Beautiful landscape">
+                    <ul>
+                        <li><p>бла-бла-бла-бла-бла-бла-бла-бла-бла-<br>бла-бла-бла-бла-бла-бла-бла-бла-бла-<br>бла-бла-бла-бла-бла-бла-бла</p></li>
+                        <li><p style="margin-top: 80px;">Когда: 25.11.2024, 8:30-16:30</p></li>
+                        <li><p style="margin-top: -10px;">Где: Нарва, адресс</p></li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h2>Выставка такая-то</h2>
+                <div class="exhibitions">
+                    <img src="./img/exhibitions2.png" alt="Beautiful landscape">
+                    <ul>
+                        <li><p>бла-бла-бла-бла-бла-бла-бла-бла-бла-<br>бла-бла-бла-бла-бла-бла-бла-бла-бла-<br>бла-бла-бла-бла-бла-бла-бла</p></li>
+                        <li><p style="margin-top: 80px;">Когда: 25.11.2024, 8:30-16:30</p></li>
+                        <li><p style="margin-top: -10px;">Где: Нарва, адресс</p></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+{% endblock %}

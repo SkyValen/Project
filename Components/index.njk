@@ -1,14 +1,10 @@
-{% extends "Views/layout.njk" %}
+{% extends "./Views/layout.njk" %}
 {% block title %} Home {% endblock %}
+{% block style %} {% include "./Design/style.css" %} {% endblock %}
 {% block content %}
-    <div class="row">
-            <div class="col-3 mb-2">
-                <div class="card h-100">
-                        {# <img src="..." class="card-img-top" alt="..."> #}
-                        <div class="card-body">
-                        <a href="/" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-    </div>
+    <section>
+        <img src="/img/Rectangle14.png" alt="Beautiful landscape">
+        <div class="description">description</div>
+        <img src="/img/Rectangle14.png" alt="Beautiful landscape">
+    </section>
 {% endblock %}

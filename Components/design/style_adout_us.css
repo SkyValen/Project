@@ -47,7 +47,8 @@ h1 a:hover {
 }
 nav {
     display: flex;
-    gap: 20px;
+    gap: 10px;
+    padding-right: 50px;
 }
 
 nav a {
@@ -56,10 +57,15 @@ nav a {
     color: white;
     text-decoration: none;
     font-size: 16px;
+    padding-right: 30px;
 }
 nav a:hover {
     color: purple;
     transition: color 0.3s ease;
+}
+
+nav a:nth-child(2) {
+    color: purple; 
 }
 
 main {
@@ -90,19 +96,24 @@ aside a:hover {
     transition: color 0.3s ease;
 }
 section {
+    display: flex;
     width: 50%;
-    padding-top: 30px;
-    padding-right: 0px;
+    padding-top: 40px;
+    padding-left: 240px;
 }
 
 section img {
-    width: 100%;
-    margin-bottom: 20px;
+    padding-right: 40px;
+    padding-top: 20px;
+    width: 166px;
+    height: 247px;
 }
 
-section .description {
+section p {
     font-family: "Jost";
-    text-align: center;
-    font-size: 18px;
-    margin-top: 10px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
 }
+

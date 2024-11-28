@@ -47,7 +47,8 @@ h1 a:hover {
 }
 nav {
     display: flex;
-    gap: 20px;
+    gap: 10px;
+    padding-right: 50px;
 }
 
 nav a {
@@ -56,10 +57,15 @@ nav a {
     color: white;
     text-decoration: none;
     font-size: 16px;
+    padding-right: 30px;
 }
 nav a:hover {
     color: purple;
     transition: color 0.3s ease;
+}
+
+nav a:nth-child(3) {
+    color: purple;
 }
 
 main {
@@ -89,20 +95,47 @@ aside a:hover {
     color: purple;
     transition: color 0.3s ease;
 }
-section {
-    width: 50%;
+
+.contacts {
+    margin-top: 40px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column; /* Добавить, чтобы элементы контактов располагались вертикально */
+}
+
+.contact {
+    display: flex;
+    margin-bottom: 20px; /* Отступ между контактами */
+}
+
+.contact img {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
     padding-top: 30px;
-    padding-right: 0px;
 }
 
-section img {
+.contact section {
+    padding-top: 15px;
     width: 100%;
-    margin-bottom: 20px;
 }
 
-section .description {
+.contact section h2 {
     font-family: "Jost";
-    text-align: center;
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: -5px;
+}
+
+.contact section p {
+    font-family: "Jost";
+    font-weight: 300;
     font-size: 18px;
-    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.contact section span {
+    font-family: "Jost";
+    font-weight: 300;
+    font-size: 18px;
 }
